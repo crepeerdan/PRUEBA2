@@ -1,0 +1,60 @@
+.trabajos{
+    width: 200px;
+    height: 200px;
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.trabajogrande{
+    background-color: rgb(40, 40, 70);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#foto1:target{
+    display: block;
+}
+#foto2:target{
+    display: block;
+}
+.imagenesgrandes{
+    width: 900px;
+    display: flex;
+    margin: auto;
+}
+.detalletrabajo{
+    width: 450px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.informaciontrabajo{
+    width: 900px;
+    margin: auto;
+}
+.t1a{
+    background-image: url(fondo.jpg);                       
+
+}
+.t1b{
+    background-image: url(gif.gif);
+    background-size: 100%;
+}
+.t1pq{
+    background-image: url(gif.gif);
+}
+.t2a{
+    background-image: url(niña.jpg);
+}
+.t2b{
+    background-image: url(niña.jpg);
+    background-size: 300%;
+    background-position: -200 -500;
+}
